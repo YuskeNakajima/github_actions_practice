@@ -1,0 +1,25 @@
+{
+  "name": "github_actions_practice",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "power-assert": "^1.6.1"
+  }
+}
