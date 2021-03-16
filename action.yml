@@ -1,0 +1,5 @@
+name: "Hello World"
+description: "ファイルを連結してアクションを実行するテスト"
+runs:
+  using: "node12"
+  main: "index.js"
